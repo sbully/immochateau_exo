@@ -1,0 +1,79 @@
+/*table*/
+.tableprod, .tabledit{
+	background-color:white;
+	width:100%;
+	margin-bottom:2em;
+}
+.tableprod th, .tabledit th{
+font-weight : bold;
+}
+.tableprod tr:nth-child(odd),.tabledit tr:nth-child(odd){
+	background-color:#80FFFF;
+}
+.tableprod tr:nth-child(even),.tabledit tr:nth-child(even){
+	background-color:#CCCCCC;
+}
+.tableprod tr td{
+	padding:0.3em;
+}
+.rowAdd td{
+	padding:0.3em;
+}
+.tabledit td{
+	padding:0.3em;
+}
+
+.tabledit td:last-child input[type=text], .tableprod td:last-child input[type=text]{
+	padding:0.3em;
+}
+.tabledit textarea{
+	height:100%;
+	padding:0;
+}
+
+.butadd{
+	width:10em;
+	height:3em;
+
+}
+.divbut {
+	width:40%;
+	height:45px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2em;
+}
+.divbut .btn-danger, input[type=submit]{
+	padding:12px 20px;
+	width:85px;
+	height:45px;
+	padding:12px 20px;
+}
+.divbut .btn-danger{
+	float:right;
+}
+input[type=submit]{
+	float:left;
+}
+.tablelog{
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;	
+}
+.tablelog input[type='text'], input[type='password']{
+	width:100% !important;
+}
+.tableTitle{
+	text-align:center;
+}
+.tablevalid input[type='submit']{
+
+float: none !important;
+margin: auto;
+
+}
+.tablevalid{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
